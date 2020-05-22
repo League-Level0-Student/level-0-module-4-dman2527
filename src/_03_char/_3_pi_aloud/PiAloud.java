@@ -4,6 +4,15 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class PiAloud {
+public static void main(String[] args) {
+String Pi =	"3.14159265358979323846";
+for (int i = 0; i < 3; i++) {
+	System.out.println(Pi.charAt(i));
+}
+for (int i = 0; i < 21; i++) {
+	System.out.println(Pi.charAt(i));
+	speak(Pi.charAt(i));
+}
 
 	// 1. Make a main method and make sure your program can run
 
@@ -22,7 +31,7 @@ public class PiAloud {
 	// *8. If they are correct, print out "correct". If they are not, print "incorrect" 
 	
 	
-	
+}
 	/********************  Use these methods. DON'T CHANGE THE CODE BELOW  ******************/
 
 	static void speak(char characterToSpeak) {
